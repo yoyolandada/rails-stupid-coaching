@@ -1,0 +1,6 @@
+ <%# diplay ask and aswer from controller %>
+<div><%= params[:question].capitalize %></div>
+
+<div><%= @answer %></div>
+
+<div><%= link_to "Make another question", ask_path %></div>
